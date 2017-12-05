@@ -1,0 +1,11 @@
+{
+    "widget":{
+        "name":"Widget",
+        "short_description":"",
+        "description":""
+    },
+    "settings":{
+        "login":"Логин",
+        "password":"Пароль"
+    }
+}

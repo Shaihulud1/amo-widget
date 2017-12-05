@@ -1,0 +1,37 @@
+{
+    "widget":{
+            "name": "widget.name",
+            "description": "widget.description",
+            "short_description": "widget.short_description",
+            "code": "excelleads",
+            "secret_key": "c8fc2e51583f8331857ed70dc5a87baa7adee7f902358f69f687664dc15e6174",
+            "version": "1.0.3",
+            "interface_version": 2,
+            "init_once": false,
+            "locale":[
+                    "ru",
+                    "en"
+                    ],
+            "installation": true
+            },
+    "locations":[
+            "ccard-1",
+            "clist-1",
+            "lcard-1",
+            "llist-1",
+				"comcard-1",
+            "settings"
+            ],
+    "settings":{
+                "login":{
+                        "name": "settings.login",
+                        "type": "text",
+                        "required": true
+                        },
+                "password":{
+                        "name": "settings.password",
+                        "type": "text",
+                        "required": true
+                        }								
+            }
+}
